@@ -1,0 +1,131 @@
+
+body{
+  background-image: url(pic9.jpg);
+  background-repeat: no-repeat;
+ padding-bottom: 50px;
+  background-size: cover;
+}
+option{
+  width:100px;
+}
+#im{
+ width:70%;
+ margin-top: 30px;
+ background-color: rgba(155, 0, 0, 0.8);
+ height: auto;
+ margin-bottom: 30px;
+}
+#im h1{
+  color:#fff;
+  padding-top:50px;
+}
+
+#nme{
+  align-items: center;
+
+}
+.player-console {
+  display: none;
+}
+#gamer{
+  padding-top:50px;
+}
+#roller1 h2{
+  color:white;
+  font-size: 30px;
+  padding-top: px;
+}
+#roller1 p{
+  color:white;
+  font-size: 30px;
+}
+#new-game{
+  width:50;
+
+}
+#roller2{
+  padding-top:0px;
+}
+#roller2 h2{
+  color:white;
+  font-size: 30px;
+  padding-top:0px;
+}
+#roller2 p{
+  color:white;
+  font-size: 30px;
+}
+#game-option{
+  color:white;
+  font-size: 30px;
+}
+#player1-name{
+  color:white;
+}
+#player2-name{
+  color:white;
+}
+.info {
+    position: absolute;
+    width: 25px;
+    top: 7px;
+    right: 10px;
+    cursor: pointer;
+}
+.dice {
+    position: absolute;
+    left: 45%;
+    height: 100px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
+}
+
+.dice-0 {
+    top: 400px;
+}
+
+.dice-1 {
+    top: 500px;
+}
+
+.animated {
+    animation-duration: 0.8s;
+    animation-name: bounceIn;
+}
+
+@keyframes bounceIn {
+    from,
+    20%,
+    40%,
+    60%,
+    80%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+
+    0% {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    20% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        transform: scale3d(0.9, 0.9, 0.9);
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        transform: scale3d(0.97, 0.97, 0.97);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
