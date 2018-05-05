@@ -1,7 +1,7 @@
-# {Mahwish-Mujahid}
-#### {author:
+# Mahwish-Mujahid
+#### author:
 **MAHWISH  
-  May 6,2018}**
+  May 6,2018**
 #### by
 **techvalley,
 wecamp,
@@ -29,15 +29,15 @@ wecamp,
  <a href="https://github.com/MAHI-M/we-camp-5th-assignment.git">Mahi-M</a>
 
  ## known bugs
- **{none}**
+ **none**
  ## technologies used
- **{
+ **
    used html,css,bootstrap,javascript,jquery.
  **
  ## support and contact no
  **
    E_MAIL: mahmuj123@gmail.com**
- }
+ 
  ### License
- *{GPL.}*
+ *GPL.*
  copyright (c) {2018} **Mahwish Mujahid under techvalley**
